@@ -1,0 +1,49 @@
+img{
+    width: 100%;
+    opacity: 1.6;
+}
+
+.maintxt {position: relative;}
+.maintxt > img, .overlay-text {position: fixed;}
+
+h1{
+    text-shadow: 2px 2px #4871ca;
+    font-size: 6.5rem;
+    margin-top: 10%;
+}
+.text{
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+.aTag
+{
+    float: left;
+}
+.metro-text
+{
+    text-shadow: 2px 2px #4871ca;
+    font-size: 6.5rem;
+    margin-top: 7%;
+    
+}
+
+span
+{
+    margin-left: -300px;
+}
+.img-overlay
+{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 2%;
+    position: fixed;
+   
+}
+/* .img-overlay>img{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 2%;
+    position: fixed;
+   
+} */

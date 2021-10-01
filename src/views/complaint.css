@@ -1,0 +1,79 @@
+body{
+    background-color: #f2f2f2;
+}
+
+/* .main{
+    width:80px;
+    margin:auto;
+} */
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left:0%;
+    margin-right: 20%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #899fa0;
+    size: px;
+  }
+
+  #customers td
+  {
+    font-size: 20px;
+  }
+  
+  #customers tr:nth-child {background-color: white;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #060b26;
+    color: white;
+  }
+  /* .raise{
+    margin-left:130%;
+    text-align:center;
+    border-radius:12px;
+    border:2px solid #060b26;
+    padding:14px 40px 15px ;
+    position: absolute;
+    /* top: 60%; */
+
+       
+  
+  /* .Complaint{
+      height: 200px;
+      width: 800px;
+      margin: left;
+      position: relative;
+  } */
+  button:hover{
+    background-color:#060b26;
+} 
+.css-serial {
+  counter-reset: Serial; /* Set the serial number counter to 0 */
+ }
+ .css-serial td:first-child:before {
+  counter-increment: Serial; /* Increment the serial number counter */
+  content: counter(Serial); /* Display the counter */
+ }
+ .raisebtn
+ {
+   margin-top: -3%;
+ }
+ .complaintTable
+ {
+   margin-left: 10%;
+ }
+ .tableDiv{
+  margin-left: 20%;
+  margin-top: 5%;
+
+ }

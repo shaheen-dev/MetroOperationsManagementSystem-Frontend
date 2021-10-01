@@ -1,0 +1,28 @@
+.cards
+{
+    padding-left: 20%;
+    padding-top: 3%;
+    width: 80%;
+    padding-bottom: 5%;
+    
+}
+.card{
+
+    height: 150%;
+   
+    
+}
+.card-header
+{
+    height: 30%;
+    font-weight: 100px;
+}
+.textHeader
+{
+    padding-top: 20%;
+}
+
+.textBody{
+    padding-top: 20%;
+    font-weight: 100px;
+}

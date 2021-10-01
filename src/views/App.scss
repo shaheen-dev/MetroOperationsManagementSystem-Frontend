@@ -1,0 +1,166 @@
+//Custom Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+.logingg {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 5%;
+  //position: relative; top: -10px; z-index: 3;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+//Login Main Container
+.login {
+  width: 27em;
+  height: 40em;
+  //min-height: 44em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  position: relative;
+  z-index: 99;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    //background-color:rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.2);
+    border-radius: 4px;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    padding: 17px 10px;
+    //transition: transform 200ms ease-in-out;
+  }
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+    background-color: #060b26;
+    // background-color:rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: absolute;
+    right: -34%;
+    border-radius: 6px;
+    z-index: 1;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.281);
+
+    &.right {
+      right: -40%;
+      align-items: flex-end;
+      &:hover {
+        right: -45%;
+        background-color: #2386c8;
+      }
+    }
+    &.left {
+      right: 40%;
+      align-items: flex-start;
+      &:hover {
+        right: 45%;
+        background-color: #2386c8;
+      }
+    }
+
+    .text {
+      font-size: 21px;
+      font-weight: 500;
+      color: #fff;
+      margin-right: 3em;
+      margin-left: 3em;
+    }
+  }
+}
+
+//Button
+.btn {
+  font-size: 21px;
+  padding: 5px 20px;
+  border: 0;
+  background-color: #060b26;
+  color: #fff;
+  border-radius: 3px;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background-color: #2386c8;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+body {
+  background-color: #1e474e;
+}
+.container {
+  width: 1000px;
+  height: 700px;
+  margin-top: 100px;
+  position:relative;
+}
+#loginForm {
+  width: 500px;
+  height: 400px;
+  position:fixed;
+  z-index:10;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+#image{
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  position:fixed;
+  opacity:initial;
+}
+
+img{
+  opacity: 0.6;
+}
+.header11
+{
+  z-index:1000;
+  opacity: 0.9;
+}

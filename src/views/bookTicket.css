@@ -1,0 +1,337 @@
+
+   /* body{
+      background-image: url(img.jpg);
+      background-position:auto;
+      background-size:cover;
+      font-family:sans-serif; 
+   } */
+      .empty{
+          margin-top:40px;
+         /* height: 50em;  
+         background-image: url(img.jpg);
+         background-position:center;
+         background-size:auto;
+         font-family:sans-serif; */
+      } */
+      .gap{
+          /* margin-top:40px; */
+      }
+
+  
+     .regform{
+      width:800px;
+      background-color:rgba(0, 0, 0, 0.6);
+      margin:auto;
+      color:#FFFFFF;
+      padding:10px 0px 10px 0px;
+      text-align:center;
+      border-radius:15px 15px 0px 0px ;
+      }  
+    .main{
+        background-color:rgba(0, 0, 0, 0.5);
+     width:800px;
+     margin:auto;}
+    
+    form{
+        padding:10px;
+     
+    } 
+    
+    /* #name{
+         width:100%;
+      height:50px;
+      
+      }   */
+    .name{
+         margin-left:25px;
+         margin-top:30px;
+         width: 125px;
+         color: white;
+         font-size: 18px;
+         font-weight: 700;}
+   .firstname{
+      position: relative;
+      left:200px;
+      top:-37px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+      
+      }
+  .getFair{
+         /* position:relative ; */
+         left:200px;
+         top:-37px;
+         line-height: 40px;
+         border-radius: 6px;
+         padding: 0 22px;
+         font-size: 16px;
+         
+         }
+  .getSchedule{
+         /* position: relative; */
+         left:417px;
+         top:-80px;
+         line-height: 40px;
+         border-radius: 6px;
+         padding: 0 22px;
+         font-size: 16px;
+                    }  
+   .btn-flex{
+      display: flex; 
+      flex-direction: row;
+   }
+   /* .text{
+      position: relative;
+      margin-left:25px;   
+      margin-top:30px;
+      width: 100%;
+      color: rgb(255, 255, 255);
+      //background-color: #555;
+      font-size: 18px;
+      font-weight: 0;
+   } */
+   .firstlabel{
+              position:relative;
+              color:#E5E5E5;    
+        text-transform: capitalize;
+     font-size: 14px;
+     left:203px;
+     top:-45px;
+     }   
+  .lastlabel{
+              position:relative;
+     color:#E5E5E5;
+     text-transform:capitalize;
+     font-size:14px;
+     left:492px;
+     top:-76px;
+       } 
+  .company{
+             position:relative;
+       left:200px;
+       top:-37px;
+       line-height: 40px;
+       width:480px;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555;  }
+   .email{
+          position:relative;
+    left:200px;
+       top:-37px;
+       line-height: 40px;
+       width:480px;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555;  
+      }     
+   
+     .Code{
+           position:relative;
+    left:200px;
+       top:-37px;
+       line-height: 40px;
+       width:95px;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555;  
+    }
+   .number{
+           position:relative;
+    left:200px;
+       top:-37px;
+       line-height: 40px;
+       width:255px;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555; 
+       }
+   .area-code{
+              position:relative;
+        color:#E5E5E5;
+        text-transform:capitalize;
+        font-size:16px;
+        left:54px;
+        top:-4px;
+       }
+   .phone-number{
+                position:relative;
+        color:#E5E5E5;
+        text-transform:capitalize;
+        font-size:16px;
+        left:-100px;
+        top:-2px;
+       }
+   .option{
+           position:relative;
+    left:200px;
+       top:-37px;
+       line-height: 40px;
+       width:532px;
+       height:40px;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555; 
+       outline:none;
+       overflow:hidden;
+    }    
+       .option option{
+                   font-size:20px;
+         }
+     #coustomer{
+      margin-left:10px;
+      color:white;
+      font-size:18px;
+      
+        } 
+       .radio{
+           display:inline-block;
+     padding-right:70px;
+     font-size:25px;
+     margin-left:25px;
+     margin-top:15px;
+     color:white;
+     }
+    .radio input{
+                width:20px;
+       height:20px;
+       border-radius:50%;
+       cursor:pointer;
+       outline:none;
+      } 
+      button{
+          background-color:#060b26;
+       display:block;
+       margin:20px 0px 0px 20px;
+       text-align:center;
+       border-radius:12px;
+       border:2px solid #366473;
+       padding:14px 110px;
+       outline:none;
+       color:white;
+       cursor:pointer;
+       transition:0.25px;
+      } 
+     button:hover{
+                  background-color:#5390F5;
+        }  
+
+    /**************   ticket  ********/
+
+#ticket {
+   width: 500px;
+   height: 250px;
+   border: 1px solid black;
+   text-transform: uppercase;
+   margin: 50px auto;
+   background: white;
+   font-family: "Times New Roman", Times, serif;
+ }
+ 
+ .pull-right {
+   padding: 15px;
+   text-align: right;
+   right: 10px;
+   font-size: 15px;
+ }
+ 
+ .pull-left {
+   text-align: left;
+   left: 10px;
+   font-size: 15px;
+   padding: 15px;
+ }
+ 
+ .trainno {
+   font-size: 60px;
+   padding: 15px;
+   font-family: monospace;
+ }
+ 
+ .trainname {
+   font-size: 22px;
+   font-family: Verdana, Geneva, sans-serif;
+   padding: 10px 8px;
+   text-align: center;
+   text-transform: uppercase;
+ }
+ 
+ .from {
+   font-family: Verdana, Geneva, sans-serif;
+   padding: 10px 10px;
+   text-align: center;
+   text-transform: uppercase;
+ }
+ 
+ .to {
+   font-family: Verdana, Geneva, sans-serif;
+   padding: 10px 0px;
+   text-align: center;
+   text-transform: uppercase;
+ }
+ 
+ #barcodes {
+   width: 80%;
+   font-size: 25px;
+ }
+ 
+ table {
+   border-collapse: collapse;
+   margin-left: 10px auto;
+ }
+ 
+ td {
+   width: 4px;
+   height: 30px;
+ }
+ 
+ .compartment {
+   font-size: 25px;
+   padding: 10px;
+ }
+ 
+ .seatno {
+   font-size: 25px;
+   padding: 10px;
+ }
+ 
+ .final > h2 {
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+   font-size: 25px;
+   padding: 20px 5px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #e0dfdc;
+   background-color: #333;
+   letter-spacing: .2em;
+   text-shadow: 1px -1px 0 #767676;
+   margin-top: 10px;
+ }
+ .main{
+    margin-top: 2%;
+ }
+ .t1{
+   margin-top: 1%;
+ }
+ .gap{
+    margin-top: 5%;
+ }
+ .fair
+ {
+    padding-left: 30px;
+ }
+ .h1Tag
+ {
+    padding-top: 6%;
+ }
+ span
+ {
+    color: white;
+ }

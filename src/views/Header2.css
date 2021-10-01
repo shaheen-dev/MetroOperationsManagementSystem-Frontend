@@ -1,0 +1,33 @@
+.ulClass {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #060b26;
+  }
+  
+  .liClass .aClass{
+    float: left;
+    
+  }
+  
+  .liClass {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px ;
+    text-decoration: none;
+  }
+  
+  .aClass{
+    border: white;
+  }
+  .liClass .aClass:hover {
+    background-color: #111;
+  }
+ .ulClass > .liClass, ol.inline > .liClass {
+    display: inline-block;
+    padding-right: 100px;
+    padding-left: 50px;
+    float: left;
+  }

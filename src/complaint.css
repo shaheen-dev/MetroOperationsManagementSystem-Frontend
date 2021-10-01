@@ -1,0 +1,73 @@
+body{
+    background-color: #f2f2f2;
+}
+
+/* .main{
+    width:80px;
+    margin:auto;
+} */
+.complaintContainer{
+ 
+  text-align: center;
+}
+#customers {
+    position:absolute;
+    left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    background-color: #060b26;
+    color: white;
+  }
+  .raise{
+    margin:20px 0px 0px 20px;
+    text-align:center;
+    border-radius:12px;
+    border:2px solid #060b26;
+    padding:14px 40px;
+    position: absolute;
+    /* top: 60%; */
+    left: 60%;
+       
+  }
+  .Complaint{
+      height: 200px;
+      width: 800px;
+      margin: right;
+      position: relative;
+  }
+  button:hover{
+    background-color:#060b26;
+} 
+.replyButton{
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #140404;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  /* width: 200px; */
+  transition: all 0.5s;
+  cursor: pointer;
+ 
+}
+
+  
